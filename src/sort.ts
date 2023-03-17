@@ -13,10 +13,6 @@ function we17304_sort<Q>(array: Q[], callback?: (a: Q, b: Q) => boolean){
                 let temp = array[i];
                 array[i] = array[j];
                 array[j] = temp;
-            }else if(array[i]< array[j]){
-                let temp = array[i];
-                array[i] = array[j];
-                array[j] = temp;
             }
         }
     }
